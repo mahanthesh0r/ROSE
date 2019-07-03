@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Confirm Your Vote</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+</head>
+<body>
+	<h3 style="text-align:center;">Confirmation</h1><br><br><br>
+<form class="form-inline" action="/action_page.php" align="center">
+  <div class="form-group">
+    <label>Name:</label>
+   <div style="text-align:center;"> <input type="textbox" class="form-control" id="candidname" placeholder="XYZ" readonly="readonly"></div><br>
+   <label>Party:</label>
+   <div style="text-align:center;"> <input type="textbox" class="form-control" id="party" placeholder="ABC" readonly="readonly"></div><br>
+   <label>Symbol:</label>
+   <div style="text-align:center;"> <div id="img_symbol"></div></div><br>
+
+  </div>
+  <br><br>
+  <button type="button" id="confm_btn" class="btn btn-default">Submit</button>
+ </form>
+	<br>
+  <div style="text-align:center;">
+  <form action="candidlist.html" >
+  <button type="submit" id="decline_btn"class="btn btn-default">Decline</button>
+  </form>  
+</div>
+</body>
+<script src="confrmvote.js"></script>
+</html>
